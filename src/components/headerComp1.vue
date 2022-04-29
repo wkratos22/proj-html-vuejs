@@ -7,9 +7,7 @@
                     <li class="px-4 align" v-for="element in NavBar" :key="element.message">
                         {{ element.message }}
                     </li>
-                    <li class="quote p-2 px-4">
-                        FREE QUOTE
-                    </li>
+                    <button type="button" class="btn btn-primary"><strong>FREE QUOTE</strong></button>
                 </ul>
             </div>
             <div class="head-text">
@@ -22,6 +20,14 @@
             <div class="p-5">
                 <font-awesome-icon class="text-white px-2" icon="fa-solid fa-paper-plane" />
                 <p class="text-white inline">GET A FREE QUOTE ONLINE NOW!</p>
+            </div>
+        </div>
+        <div class="text-center award-bg">
+            <div class="padding">
+                <h6><strong>HEADACHE FREE</strong></h6>
+                <h1 class="award"><strong>Award winning <br> Moving Company</strong></h1>
+                    <p class="py-4">Lorem ipsum dolor sit amet consectetur, adipiscing elit. Nullam ac augue. Orci varius natoque penatibus et <br> magnis dis parturient montes, ridiculus mus. Aliquam enim leo, condimentum facilisis nulla sed, cursus <br> arcu. Aliquam enim leo.</p>
+                    <button type="button" class="btn btn-primary"><strong>READ OUR TESTIMONIALS</strong></button>
             </div>
         </div>
     </div>
@@ -116,5 +122,30 @@
 
     .bg-blue {
         background-color: #1975c0;
+    }
+
+    .award{
+        color: #69bf14;
+    }
+
+    .award-bg{
+        background-color: #e9e9e9;
+    }
+
+    .padding{
+        padding: 130px;
+    }
+
+    .btn-primary{
+        background-color: #1975c0 !important;
+        border-radius:40px ;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    .btn-primary:hover{
+        background-color: #2b90e2 !important;
+        border: 1px solid #2b90e2;
     }
 </style>
