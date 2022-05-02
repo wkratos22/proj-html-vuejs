@@ -46,8 +46,18 @@
             </div>
         </div>
 
-        <div class="bg-image">
-            <img src="" alt="">
+        <div class="bg-image mt-5">
+            <div class="col text-center flex">
+                    <div class="p-3 bg-lime div-green position">
+                        <div class="bg-green p-5">
+                            <h6 class="text-white"><strong>WE REMOVE THE HEADACHE FROM MOVING</strong></h6>
+                            <h1 class="text-white">Move With Ease</h1>
+                            <hr class="hr text-white">
+                            <p class="text-white">With our super simple service we can take you from getting a quote, right throught to being in your ne home with all of your belongings securley packed and safely delivered, even in the rooms of your choice.</p>
+                            <button type="button" class="btn btn-primary"><strong>GET A FREE QUOTE NOW</strong></button>
+                        </div>
+                    </div>
+                </div>
         </div>
 
     </div>
@@ -61,11 +71,11 @@
 </script>
 
 <style scoped lang="scss">
-
-    #root{
-        --button-blue: #1975c0;
-        --button-blue-hover:#2b90e2;
+    *{
+        --button-color: #1b74c3;
+        --button-color-hover: #2d86cf;
     }
+
 
     h1 {
         font-size: 50px;
@@ -100,7 +110,7 @@
     }
 
     .btn-primary {
-        background-color: var(--button-blue!important) ;
+        background-color: var(--button-color) ;
         border-radius: 40px;
         padding-left: 20px;
         padding-right: 20px;
@@ -108,8 +118,8 @@
     }
 
     .btn-primary:hover {
-        background-color: var(--button-blue-hover !important);
-        border: 1px solid var(--button-blue-hover !important) ;
+        background-color: var(--button-color-hover);
+        border: 1px solid var(--button-color-hover) ;
     }
 
     .service-bg{
@@ -127,6 +137,33 @@
         background-repeat: no-repeat ;
         background-size: cover;
         max-width: 100%;
-        height: 650px;
+        height: 750px;
+    }
+
+    .div-green{
+        width: 600px;
+    }
+
+    .hr{
+        width: 400px;
+        margin-left: 14%;
+    }
+
+    .bg-lime{
+        background-color: #69bf14;
+    }
+
+    .bg-green{
+        background-color: #8fce53;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .position{
+        margin-top: 9%;
+        margin-left: 35%;
     }
 </style>

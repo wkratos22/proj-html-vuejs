@@ -11,8 +11,9 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-library.add(faStar, faPhone, faTwitter, faFacebook, faInstagram, faYoutube, faPaperPlane)
+library.add(faStar, faPhone, faTwitter, faFacebook, faInstagram, faYoutube, faPaperPlane,)
 Vue.config.productionTip = false
 
 new Vue({

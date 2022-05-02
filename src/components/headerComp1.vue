@@ -58,6 +58,7 @@
                     },
 
                 ],
+                
             }
 
         }
@@ -66,6 +67,7 @@
 
 
 <style scoped lang="scss">
+  
     li {
         display: inline-block;
         font-weight: 600;
